@@ -1,7 +1,7 @@
 # Certificate_Validator_for_Academia
 Project made by the team "Cold Blooded" for SIH 2025 
 
-To run the software you have to run node index.js in the terminal.
+To run the software you have to navigate to the backend folder and run node index.js in the terminal.
 Note: For the thesis ai-checker to work, you have to run python app.py in a separate terminal while the first server is already running.
 
 Features:
