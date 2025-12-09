@@ -1,0 +1,25 @@
+
+> frontend@0.0.0 build
+> vite build
+
+[36mvite v7.2.4 [32mbuilding client environment for production...[36m[39m
+transforming...
+Found 1 warning while optimizing generated CSS:
+
+[2m│   }[22m
+[2m│   .data-\[today\:not\(\[aria-selected\]\)\]\:text-foreground {[22m
+[2m│[22m     &[data-today:not([aria-selected])] {
+[2m┆[22m                 [33m[2m^--[22m Unexpected token in attribute selector: Colon[39m
+[2m┆[22m
+[2m│       color: var(--foreground);[22m
+[2m│     }[22m
+
+[32m✓[39m 1138 modules transformed.
+[31m✗[39m Build failed in 1.37s
+[31merror during build:
+[31mCould not resolve "../contexts/auth-context" from "src/components/UserCertificates.jsx"[31m
+file: [36mD:/sih/fronend-sih-cold/new-frontend/src/components/UserCertificates.jsx[31m
+    at getRollupError (file:///D:/sih/fronend-sih-cold/new-frontend/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///D:/sih/fronend-sih-cold/new-frontend/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///D:/sih/fronend-sih-cold/new-frontend/node_modules/rollup/dist/es/shared/node-entry.js:21590:24)
+    at file:///D:/sih/fronend-sih-cold/new-frontend/node_modules/rollup/dist/es/shared/node-entry.js:21550:26[39m
